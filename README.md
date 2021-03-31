@@ -2,7 +2,7 @@
 Animated NFT on Cardano
 
 Method of creating such an NFT was inspired by a post of the redditor https://www.reddit.com/user/Sparda_Project/ who
-suggested such a way of creating NFTs on Cardano in early March. 
+suggested such a way of creating NFTs on Cardano in early March. The post: https://www.reddit.com/r/CardanoNFTs/comments/lzxgpj/workaround_cardano_nft/
 
 Another huge inspiration that simply hard to ignore is SpaceBudz co-created by https://github.com/alessandrokonrad. I adjusted the metadata to the standards set by those
 pioneers!
