@@ -10,7 +10,7 @@ pioneers!
 ## How to interper metadata of "Jpego" animated NFT?
 
 ### Policy id:
-1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85 is a policyid
+        1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85 
 
 ### Features:
  features: [
@@ -41,4 +41,16 @@ The full links to those files on Arweave are https://jwt6p665d6hlchua4w3h63eoott
              
          name: "Jpego #0",
          type: "robot"
-                             
+### Uniqueness?
+Uniqueness of each token is determined by a unique combination of policy id and token name.
+
+### Quantities?
+After a certain period of time additional mints or burns
+will not be possible.
+
+At the moment quanities and mints are controlled by a creator of this repository.
+
+As of 2021-03-30 there is: one of 1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85.Jpego
+
+
+#### Section examinig the minting policy will be added a little bit later...
