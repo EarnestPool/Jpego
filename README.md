@@ -24,7 +24,7 @@ Type of animation
 Color pallet or scheme
 One or more unique features such as shape and color of "hair"
 
-###Links and how to find them
+### Links and how to find them
 
          gif: "QmXhpHx9EAHLfrnFAD87xGaJirob1F2ir9gV8AXCKPYoNy",
          gifCopy: "PumMPE-s3bYNNOrrXVHaDNyNIrJla7hQSPSZrVG5VDg",
@@ -37,7 +37,7 @@ gifCopy and imageCopy hashes to find archived webpages that store those files on
 The full links to those files on Pinata are https://gateway.pinata.cloud/ipfs/ +  respective hash<br/>
 The full links to those files on Arweave are https://jwt6p665d6hlchua4w3h63eoottxxnqhjb5rjozcpi7x6oxrxqwa.arweave.net/ + respective hash
     
-###Name and Type:
+### Name and Type:
              
          name: "Jpego #0",
          type: "robot"
