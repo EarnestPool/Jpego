@@ -20,9 +20,9 @@ pioneers!
          ]
 
 features are presented in the following order:
-Type of animation
-Color pallet or scheme
-One or more unique features such as shape and color of "hair"
+Type of animation<br/>
+Color pallet or scheme<br/>
+One or more unique features such as shape and color of "hair"<br/>
 
 ### Links and how to find them
 
