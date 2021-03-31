@@ -7,12 +7,12 @@ suggested such a way of creating NFTs on Cardano in early March. The post: https
 Another huge inspiration that simply hard to ignore is SpaceBudz co-created by https://github.com/alessandrokonrad. I adjusted the metadata to the standards set by those
 pioneers!
 
-##How to interper metadata of "Jpego" animated NFT?
+## How to interper metadata of "Jpego" animated NFT?
 
-###Policy id:
+### Policy id:
 1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85 is a policyid
 
-###Features:
+### Features:
  features: [
             "Wave'n'Flip",
             "PinkBlueGoldBrown",
