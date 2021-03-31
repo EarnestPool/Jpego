@@ -35,7 +35,7 @@ use gif and image hashes to find those files on Pinata IPFS cloud
 gifCopy and imageCopy hashes to find archived webpages that store those files on Arweave
 
 The full links to those file on Pinata are https://gateway.pinata.cloud/ipfs/ +  respective hash<br/>
-                             on Arweave are https://jwt6p665d6hlchua4w3h63eoottxxnqhjb5rjozcpi7x6oxrxqwa.arweave.net/ + respective hash
+The full links to those file on Arweave are https://jwt6p665d6hlchua4w3h63eoottxxnqhjb5rjozcpi7x6oxrxqwa.arweave.net/ + respective hash
     
 ###Name and Type:
              
