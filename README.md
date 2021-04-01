@@ -27,6 +27,8 @@ One or more unique features such as shape and color of "hair"<br/>
 
 ### Links and how to find them
 
+#### Will be changing the metadata a bit for next unique token mints so that it complies with certain standards
+
          gif: "QmXhpHx9EAHLfrnFAD87xGaJirob1F2ir9gV8AXCKPYoNy",
          gifCopy: "PumMPE-s3bYNNOrrXVHaDNyNIrJla7hQSPSZrVG5VDg",
          image: "QmbHuyRe96UaqFGM5ypF5CWHVp9GmKzUkXb3ufauiNeQB4",
