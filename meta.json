@@ -1,22 +1,24 @@
-METADATA NEEDS TO BE UPDATED 
-UPDATES WILL BE MADE SOON
-
 {
-	"721": {
-		"1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85": {
-			"Jpego": {
-				"gif": "ipfs://QmXhpHx9EAHLfrnFAD87xGaJirob1F2ir9gV8AXCKPYoNy",
-				"gifCopy": "PumMPE-s3bYNNOrrXVHaDNyNIrJla7hQSPSZrVG5VDg",
-				"image": "ipfs://QmbHuyRe96UaqFGM5ypF5CWHVp9GmKzUkXb3ufauiNeQB4",
-				"imageCopy": "Tafn-90fjrEegOW2f2yOdOd7tgdIexS7Ino_fzrxvCw",
-				"name": "Jpego",
-				"features": [
-					"Wave'n'Flip",
-					"PinkBlueGoldBrown",
-					"PurpleSquareBang"
-				],
-				"type": "robot"
-			}
-		}
-	}
+   "721":{
+      "definition":{
+         "description":"Animated, Charismatic Robot",
+         "files":[
+            {
+               "bUrl":"",
+               "file":"QmcJifVSPu56Nq89Gk8K6HNwwWZcAamXktHaFCs7FXP3NT",
+               "mHost":"IPFS",
+               "mType":"image/gif"
+            }
+         ],
+         "name":"Jpego",
+         "features":[
+            "Wave'n'Flip",
+            "PinkBlueGoldBrown",
+            "PurpleSquareBang"
+         ]
+      },
+      "policy":"$POLICY",
+      "type":"NFT"
+   }
 }
+
