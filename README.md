@@ -11,7 +11,8 @@ pioneers!
 ## How to interper metadata of "Jpego" animated NFT?
 #### You can put other info in your metadata
 ### Policy id:
-        1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85 
+            3136575690f1c32ebd11bada886695e2167778addabdc3cf6f517b17
+        
 
 ### Features:
  features: [
@@ -27,23 +28,11 @@ One or more unique features such as shape and color of "hair"<br/>
 
 ### Links and how to find them
 
-## !!! Will be changing the metadata a bit for next unique token mints so that it complies with certain standards !!!
 
-         gif: "QmXhpHx9EAHLfrnFAD87xGaJirob1F2ir9gV8AXCKPYoNy",
-         gifCopy: "PumMPE-s3bYNNOrrXVHaDNyNIrJla7hQSPSZrVG5VDg",
-         image: "QmbHuyRe96UaqFGM5ypF5CWHVp9GmKzUkXb3ufauiNeQB4",
-         imageCopy: "Tafn-90fjrEegOW2f2yOdOd7tgdIexS7Ino_fzrxvCw",
-
-use gif and image hashes to find those files on Pinata IPFS cloud
-gifCopy and imageCopy hashes to find archived webpages that store those files on Arweave
-
-The full links to those files on Pinata are https://gateway.pinata.cloud/ipfs/ +  respective hash<br/>
-The full links to those files on Arweave are https://jwt6p665d6hlchua4w3h63eoottxxnqhjb5rjozcpi7x6oxrxqwa.arweave.net/ + respective hash
     
 ### Name and Type:
-             
-         name: "Jpego #0",
-         type: "robot"
+         name: "Jpego",
+         type: "NFT"
 ### Uniqueness?
 Uniqueness of each token is determined by a unique combination of policy id and token name.
 
@@ -53,7 +42,7 @@ will not be possible.
 
 At the moment quanities and mints are controlled by a creator of this repository.
 
-As of 2021-03-30 there is: one of 1789b1bf787acd93d5057351f80dc3b53f6be0c1d1c389ef9e0faa85.Jpego
+As of 2021-04-04 there is: one of 3136575690f1c32ebd11bada886695e2167778addabdc3cf6f517b17.Jpego
 
 
 #### Section examinig the minting policy will be added a little bit later...
