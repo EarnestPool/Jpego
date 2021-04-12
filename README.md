@@ -30,9 +30,8 @@ One or more unique features such as shape and color of "hair"<br/>
 
 
     
-### Name and Type:
-         name: "Jpego",
-         type: "NFT"
+### Name:
+         name: "Jpego"
 ### Uniqueness?
 Uniqueness of each token is determined by a unique combination of policy id and token name.
 
