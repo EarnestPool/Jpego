@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+:root {
+	--unit:200px;
+}
+
+.bang{
+  position:absolute;
+  top:-55px;
+  left:-15px;
+  height:calc(0.1*var(--unit));
+  width:calc(0.4*var(--unit));
+  background-color:rgb(calc(0.5*255), calc(0*255), calc(1*255));
+
+}
+
+.rEye{
+  position:absolute;
+  top:-20px;
+  left:-10px;
+  height:calc(0.1*var(--unit));
+  width:calc(0.1*var(--unit));
+  background-color: rgb(calc(0.58*255), calc(0.2*255), calc(0.58*255));
+  border-radius: 50%;
+}
+
+.lEye{
+  position:absolute;
+  top:-20px;
+  left:40px;
+  height:calc(0.1*var(--unit));
+  width:calc(0.1*var(--unit));
+  background-color: rgb(calc(0.58*255), calc(0.2*255), calc(0.58*255));
+  border-radius: 50%;
+}
+
+.mouth{
+  position:absolute;
+  left:-5px;
+  top:15px; 
+  height:calc(0.1*var(--unit));
+  width:calc(0.3*var(--unit));
+  background-color:rgb(calc(0.2*255), calc(0*255), calc(0.3*255));
+}
+
+.head{
+  position:absolute;
+  left:-25px;
+  top:-50px; 
+  height:calc(0.5*var(--unit));
+  width:calc(0.5*var(--unit));
+  background-color:rgb(calc(0.58*255), calc(0.83*255), calc(0.93*255));
+}
+
+.neck{
+  position:fixed;
+  left:475px;
+  top:150px;
+  height:calc(0.4*var(--unit));
+  width:calc(0.25*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+
+.torso{
+  position:fixed;
+  left:400px;
+  top:215px;
+  height:calc(1*var(--unit));
+  width:calc(1*var(--unit));
+  background-color:rgb(calc(0.32*255), calc(0.54*255), calc(0.64*255));
+}
+
+.spine{
+  position:absolute;
+  left:90px;
+  top:200px;
+  height:calc(0.1*var(--unit));
+  width:calc(0.1*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.hips{
+  position:absolute;
+  left:0px;
+  top:210px;
+  height:calc(0.5*var(--unit));
+  width:calc(1*var(--unit));
+  background-color:rgb(calc(0.72*255), calc(0.24*255), calc(0.73*255));
+}
+
+.rUpLeg{
+  position:absolute;
+  left:0px;
+  top:50px;
+  height:calc(0.8*var(--unit));
+  width:calc(0.35*var(--unit));
+  background-color:rgb(calc(0.72*255), calc(0.24*255), calc(0.73*255));
+}
+
+
+.lUpLeg{
+  position:absolute;
+  left:130px;
+  top:50px;
+  height:calc(0.8*var(--unit));
+  width:calc(0.35*var(--unit));
+  background-color:rgb(calc(0.72*255), calc(0.24*255), calc(0.73*255));
+}
+
+.knee{
+  position:absolute;
+  left:20px;
+  top:160px;
+  height:calc(0.1*var(--unit));
+  width:calc(0.15*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.calf{
+  position:absolute;
+  left:-7px;
+  top:10px;
+  height:calc(0.75*var(--unit));
+  width:calc(0.22*var(--unit));
+  background-color:rgb(calc(0.58*255), calc(0.83*255), calc(0.93*255));
+}
+
+.ankle{
+  position:absolute;
+  left:7px;
+  top:150px;
+  height:calc(0.08*var(--unit));
+  width:calc(0.15*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.lShoe{
+  position:absolute;
+  left:-8px;
+  top:10px;
+  width:80px;
+  height:40px;
+  transform: skew(20deg);
+  background-color:rgb(calc(0.27*255), calc(0.22*255), calc(0.23*255));
+}
+
+.rShoe{
+  position:absolute;
+  left:-40px;
+  top:10px;
+  width:80px;
+  height:40px;
+  transform: skew(-20deg);
+  background-color:rgb(calc(0.27*255), calc(0.22*255), calc(0.23*255));
+}
+
+.rShoulder{
+  position:absolute;
+  left:-20px;
+  top:10px;
+  height:calc(0.08*var(--unit));
+  width:calc(0.1*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.lShoulder{
+  position:absolute;
+  left:200px;
+  top:10px;
+  height:calc(0.08*var(--unit));
+  width:calc(0.1*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.rUpperArm{
+  position:absolute;
+  left:-75px;
+  top:-18px;
+  height:calc(0.8*var(--unit));
+  width:calc(0.22*var(--unit));
+  background-color:rgb(calc(0.17*255), calc(0.19*255), calc(0.50*255));
+  transform: rotate(45deg);
+}
+
+.lUpperArm{
+  position:absolute;
+  left:51px;
+  top:-18px;
+  height:calc(0.8*var(--unit));
+  width:calc(0.22*var(--unit));
+  background-color:rgb(calc(0.17*255), calc(0.19*255), calc(0.50*255));
+  transform: rotate(-45deg);
+}
+
+.elbow{
+  position:absolute;
+  left:10px;
+  top:160px;
+  height:calc(0.08*var(--unit));
+  width:calc(0.1*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.forearm{
+  position:absolute;
+  left:-5px;
+  top:10px;
+  height:calc(0.7*var(--unit));
+  width:calc(0.15*var(--unit));
+  background-color:rgb(calc(0.93*255), calc(0.96*255), calc(0.66*255));
+}
+
+.handBone{
+  position:absolute;
+  left:6px;
+  top:140px;
+  height:calc(0.06*var(--unit));
+  width:calc(0.08*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.wrist{
+  position:absolute;
+  left:-6px;
+  top:10px;
+  height:calc(0.1*var(--unit));
+  width:calc(0.15*var(--unit));
+  background-color:rgb(calc(0.27*255), calc(0.22*255), calc(0.23*255));
+}
+
+.finger1{
+  position:absolute;
+  left:4px;
+  top:20px;
+  height:calc(0.06*var(--unit));
+  width:calc(0.03*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.finger2{
+  position:absolute;
+  left:12px;
+  top:20px;
+  height:calc(0.06*var(--unit));
+  width:calc(0.03*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+.finger3{
+  position:absolute;
+  left:20px;
+  top:20px;
+  height:calc(0.06*var(--unit));
+  width:calc(0.03*var(--unit));
+  background-color:rgb(calc(0.76*255), calc(0.76*255), calc(0.76*255));
+}
+
+</style>
+</head>
+<body>
+<div class="neck">
+	<div class="head"></div>
+	<div class="bang"></div>
+	<div class="rEye"></div>
+	<div class="lEye"></div>
+	<div class="mouth"></div>
+</div>
+<div class="torso">
+    <div class="rShoulder">
+    	<div class="rUpperArm">
+    		<div class="elbow">
+    			<div class="forearm">
+    				<div class="handBone">
+    					<div class="wrist">
+    						<div class="finger1"></div>
+    						<div class="finger2"></div>
+    						<div class="finger3"></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="lShoulder">
+    	<div class="lUpperArm">
+    		<div class="elbow">
+    			<div class="forearm">
+    				<div class="handBone">
+    					<div class="wrist">
+    						<div class="finger1"></div>
+    						<div class="finger2"></div>
+    						<div class="finger3"></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	<div class="spine"></div>
+	<div class="hips">
+		<div class="rUpLeg">
+			<div class="knee">
+				<div class="calf">
+					<div class="ankle">
+						<div class="rShoe"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lUpLeg">
+				<div class="knee">
+					<div class="calf">
+						<div class="ankle">
+							<div class="lShoe"></div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
