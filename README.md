@@ -42,7 +42,7 @@ will not be possible.
 
 At the moment quanities and mints are controlled by a creator of this repository.
 
-As of 2021-04-04 there is: one of 3136575690f1c32ebd11bada886695e2167778addabdc3cf6f517b17.Jpego
+As of 2021-04-15 there is: 
 
 
 #### Section examinig the minting policy will be added a little bit later...
