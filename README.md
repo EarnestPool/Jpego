@@ -11,7 +11,8 @@ pioneers!
 ## How to interper metadata of "Jpego" animated NFT?
 #### You can put other info in your metadata
 ### Policy id:
-            3136575690f1c32ebd11bada886695e2167778addabdc3cf6f517b17
+            WILL SOON BE UPDATED
+            
         
 
 ### Features:
