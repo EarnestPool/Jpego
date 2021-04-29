@@ -35,7 +35,4 @@ will not be possible.
 
 At the moment quanities and mints are controlled by a creator of this repository.
 
-As of 2021-04-15 there is: 
-
-
 #### Section examinig the minting policy will be added a little bit later...
