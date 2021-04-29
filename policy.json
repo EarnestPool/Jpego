@@ -1,14 +1,13 @@
 {
    "scripts":[
       {
-         "keyHash": "99644fc4cf471676b7010534a54b55f1a4b071e4c75f84a2e85ebb8a",
+         "keyHash": "8613241fd331fa4d96d267fccb8a049e6f91186a124165697acd2172",
          "type": "sig"
       },
       {
-         "slot": 40000000,
+         "slot": 31519265,
          "type": "before"
       }
    ],
    "type": "all"
 }
-
