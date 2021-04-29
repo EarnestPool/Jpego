@@ -1,11 +1,17 @@
-METADATA WILL BE CHANGED IN THE FUTURE MINTS!
-LABEL 721 WILL REMAIN
-THE STRUCTURE WILL CHANGE
-DO NOT USE IT AS AN EXAMPLE FOR NOW
 {
-   "721":{
-      :{
-      WILL BE UPDATED SOON  
-   }
+      "721": {
+            "2529c47746a9602d8b601e4427ecbc0f2f31298484f7a69d040e3219": {
+                  "OriginalJpego47": {
+                        "name": "Original Jpego 47",
+                        "image": "ipfs://ipfs/QmcJifVSPu56Nq89Gk8K6HNwwWZcAamXktHaFCs7FXP3NT",
+                        "properties": [
+                              "Original Series",
+                              "Created by [ERNST]",
+                              "earnestpool.com"
+                        ]
+                  }
+            }
+      }
 }
+
 
