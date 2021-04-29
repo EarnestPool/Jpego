@@ -1,4 +1,4 @@
-# Jpego
+# Original Jpego
 Animated NFT on Cardano
 
 Method of creating such an NFT was inspired by a post of the redditor https://www.reddit.com/user/Sparda_Project/ who
@@ -11,28 +11,21 @@ pioneers!
 ## How to interper metadata of "Jpego" animated NFT?
 #### You can put other info in your metadata
 ### Policy id:
-            WILL SOON BE UPDATED
+            2529c47746a9602d8b601e4427ecbc0f2f31298484f7a69d040e3219
+
             
         
 
-### Features:
- features: [
-            "Wave'n'Flip",
-            "PinkBlueGoldBrown",
-            "PurpleSquareBang"
-         ]
+### Properties
 
-features are presented in the following order:
-Type of animation<br/>
-Color pallet or scheme<br/>
-One or more unique features such as shape and color of "hair"<br/>
-
-### Links and how to find them
+                              "Original Series",
+                              "Created by [ERNST]",
+                              "earnestpool.com"
 
 
-    
+
 ### Name:
-         name: "Jpego"
+         name: "OriginalJpego"
 ### Uniqueness?
 Uniqueness of each token is determined by a unique combination of policy id and token name.
 
